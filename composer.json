@@ -1,8 +1,8 @@
 {
-    "name": "flarum/lang-english",
+    "name": "njkhanh/lang-vietnamese",
     "type": "flarum-extension",
-    "description": "English language pack.",
-    "keywords": ["locale"],
+    "description": "Vietnamese language pack.",
+    "keywords": ["locale", "vietnam", "vietnamese"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.9"
@@ -12,7 +12,7 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "English",
+            "title": "Vietnamese",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
@@ -21,8 +21,8 @@
             }
         },
         "flarum-locale": {
-            "code": "en",
-            "title": "English"
+            "code": "vi",
+            "title": "Vietnamese"
         }
     }
 }

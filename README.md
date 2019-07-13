@@ -1,9 +1,19 @@
-# English Language Pack for Flarum
+# Vietnamese Language Pack for Flarum
+
+## Information
+- Requires: Flarum v0.1.0 Beta 9
+- Compatible up to: Flarum v0.1.0-beta.9
+
 
 ## Installation
 
 This language pack is bundled with [Flarum](http://flarum.org/).
 
-## Translating Flarum
-
-Because Flarum is at an early development stage, instructions to translate it are currently unavailable. Please check [our documentation](http://flarum.org/docs/translate/) when it will be written.
+You only need to install is to type this command in flarum root directory:
+```
+composer require njkhanh/lang-vietnamese
+```
+And delete:
+```
+composer remove njkhanh/lang-vietnamese
+```

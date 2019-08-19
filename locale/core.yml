@@ -240,7 +240,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Bạn chắc chắn muốn xóa thảo luận này chứ?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Đăng nhập để bình luận
+      log_in_to_reply_button: Phản hồi
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -299,11 +299,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Mới nhất
-      newest_button: Gần nhất
-      oldest_button: Cũ nhất
+      latest_button: Thảo luận mới nhất
+      newest_button: Bài viết mới nhất
+      oldest_button: Bài viết cũ nhất
       relevance_button: Phù hợp
-      top_button: Lên trên
+      top_button: Bài viết nhiều thảo luận
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -342,7 +342,7 @@ core:
       now_link: Hiện tại
       original_post_link: Bài viết gốc
       unread_text: "{count} chưa đọc"
-      viewing_text: "{index} của {count} post|{index} của {count} posts"
+      viewing_text: "{index} / {count} thảo luận|{index} / {count} thảo luận"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
